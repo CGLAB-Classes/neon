@@ -1,7 +1,8 @@
 # Neon
 
-Neon is a minimal ray tracer written in C++. It was wrrtien for my own learning
-purpose and base code for assignment in the Computer Graphics course at GIST.
+Neon is a minimal ray tracer written in C++. Originally, It was wrrtien for my own learning
+purpose. This is part of the ray tracer which can be used as base code for assignment in 
+the Computer Graphics course at GIST.
 
 
 # Installation 
@@ -10,7 +11,7 @@ purpose and base code for assignment in the Computer Graphics course at GIST.
 git clone  https://github.com/CGLAB-Classes/neon-edu.git
 cd neon
 mkdir build 
-cmake ..              # this might take due to installation of external library
+cmake ..              # this might take a while due to installation of external library
 make -j4
 ```
 
@@ -36,7 +37,7 @@ To use Neon, you need a C++ compiler which supports C++17 and cmake.
 
 # License 
 
-Neon is licensed under the [MIT License](https://github.com/sleepyeye/neon/blob/master/LICENSE)
+Neon is licensed under the [MIT License](https://github.com/CGLAB-Classes/neon-edu/blob/master/LICENSE)
 
 
 

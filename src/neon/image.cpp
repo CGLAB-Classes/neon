@@ -54,7 +54,7 @@ std::vector<ne::TileIterator> Image::toTiles(glm::uvec2 tileSize) const {
   glm::uvec2 numTiles = glm::uvec2((int)std::ceil(size_.x / float(tileSize.x)),
                                    (int)std::ceil(size_.y / float(tileSize.y)));
 
-  std::vector<ne::TileIterator> tiles(numTiles.x * numTiles.y);
+  std::vector<ne::TileIterator> tiles;
 
   // loop for tile index
   for (int j = 0; j < numTiles.y; ++j) {
