@@ -10,7 +10,8 @@ the Computer Graphics course at GIST.
 ```sh
 git clone  https://github.com/CGLAB-Classes/neon-edu.git
 cd neon
-mkdir build 
+mkdir build
+cd build
 cmake ..              # this might take a while due to installation of external library
 make -j4
 ```
