@@ -53,7 +53,7 @@ std::shared_ptr<ne::Scene> testScene2() {
       std::make_shared<ne::Metal>(glm::vec3(0.4f, 0.8f, 0.4f), 0.2f),
       std::make_shared<ne::Metal>(glm::vec3(0.4f, 0.4f, 0.4f), 0.6f),
       std::make_shared<ne::Dielectric>(glm::vec3(0.4f, 0.4f, 0.4f), 1.5f),
-      std::make_shared<ne::DiffuseLight>(glm::vec3(30, 25, 15)),
+      std::make_shared<ne::DiffuseLight>(glm::vec3(1.2, 1.2, 1.2)), // changed from glm::vec3(30, 25, 15)
   };
   ne::RendablePointer objects[] = {
       std::make_shared<ne::Sphere>(glm::vec3(0, -100.5, -1), 100, materials[0]),
